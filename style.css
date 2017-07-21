@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+header {
+	padding-top: 7%;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: linear-gradient(rgba(136, 167, 216, 0.4) 0%,rgba(0,0,0,0.7) 100%), url(https://images.pexels.com/photos/5329/person-woman-apple-hotel.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 75vh;
+	color: #dee7f4;
+}
+.fa {
+	font-size: 50px;
+}
+.scroll-down {
+	position: absolute;
+	padding-top: 10%;
+	padding-left: 48%;
+	margin: auto;
+	width :34px;
+	height: 55px;
+}
+.mouse {
+	width: 1px;
+	padding: 10px 15px;
+	height: 25px;
+	border: 2px solid #dee7f4;
+	border-radius: 25px;
+	opacity: 0.75;
+}
+.scroller {
+	width: 1px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: #dee7f4;
+	animation-name: scroll;
+	animation-duration: 2.2s;
+	animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+	animation-iteration-count: infinite;
+}
+@keyframes scroll {
+	0% { opacity: 0; }
+	10% { transform: translateY(0); opacity: 1; }
+	100% { transform: translateY(15px); opacity: 0;}
+}
+.about {
+	text-align: center;
+}
+.aboutus {
+	margin: 8% 15%;
+}
+legend {
+	width: 350px;
+	text-transform: uppercase;
+	font-size: 33px;
+	font-weight: bold;
+}
+.services {
+	text-align: center;
+	background-image: linear-gradient(rgba(136, 167, 216, 0.7) 0%,rgba(0,0,0,0.8) 100%), url(https://images.pexels.com/photos/265052/pexels-photo-265052.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 67vh;
+	color: #dee7f4;
+}
+.serv {
+	margin: 6% 15%;
+}
+.scope {
+	text-align: center;
+}
+.offer {
+	margin: 8% 15%;	
+}
+.offer img {
+	height: 60px;
+	width: auto;
+}
+.pen {
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.offer h2 {
+	text-transform: uppercase;
+}
+.gallery img {
+	width: 98%;
+	height: 250px;
+	text-align: justify;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+.gal img:last-child {
+	margin-right: 0;
+}
+.contact {
+	margin: 8% 15%;	
+	text-align: center;
+}
