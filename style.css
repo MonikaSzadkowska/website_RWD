@@ -86,6 +86,7 @@ legend {
 .offer img {
 	height: 60px;
 	width: auto;
+	position: relative;
 }
 .pen {
 	-ms-transform: rotate(180deg);
